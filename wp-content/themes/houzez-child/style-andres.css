@@ -50,3 +50,12 @@ form .com{margin: 0 0 8px 0;}
 /*sidebar add*/
 #text-2{border-radius: 3px;border: 3px solid #22305d !important; text-align: center;}
 #text-2 h3,#text-2 p{color:#22305d;}
+.profile-detail-block .agent-title a{color: #22305d;font-size: 20px;}
+.profile-detail-block .position{color: #00aeef;font-size: 18px;}
+.profile-detail-block{transition:all 0.2s;box-shadow: 0px 0px 10px #fff;}
+.profile-detail-block:hover{cursor: pointer;box-shadow: 0px 0px 10px #ccc;}
+/*Form principal*/
+#formcontact select{display: block; width: 100%; height: 42px; padding: 6px 15px; font-size: 14px; line-height: 1.42857; color: #959595; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px; -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;}
+#formcontact .aceptoterminos{display: inline-block;}
+#formcontact select,#formcontact input{margin: 0 0 20px 0;}
+#formcontact input[type="submit"]{width: 100%;max-width: 100%;}
