@@ -33,7 +33,7 @@ header .media-left i.iclock{background-image: url('img/hour-icon.svg');}
 @media screen and (max-width: 767px){
 	div.ttsub{width: 100%;}
 }
-.hparalax{padding: 45px 0px; line-height: 1.5; background-attachment: fixed; background-position: 0 0; box-shadow: 0 6px 8px #ccc; -moz-box-shadow: 0 6px 8px #ccc; -webkit-box-shadow: 0 6px 8px #ccc; -o-box-shadow: 0 6px 8px #ccc; -ms-box-shadow: 0 6px 8px #ccc; margin: 0 0 2% 0; background-size: contain;}
+.hparalax{padding: 45px 0px; line-height: 1.5; background-attachment: fixed; background-position: 0 0; box-shadow: 0 6px 8px #ccc; -moz-box-shadow: 0 6px 8px #ccc; -webkit-box-shadow: 0 6px 8px #ccc; -o-box-shadow: 0 6px 8px #ccc; -ms-box-shadow: 0 6px 8px #ccc; margin: 0 0 2% 0; background-size: cover;}
 .hparalax h1{margin: 0; text-align: center; color: #fff; font-size: 40px; text-transform: uppercase; font-weight: 400; text-shadow: 1px 1px 2px #000; }
 .hr{padding: 40px 0 0 0;}
 .agent-listing figure img{filter: grayscale(100%); -webkit-filter: grayscale(100%); transition:filter 0.4s; -webkit-transition:-webkit-filter 1s; }
