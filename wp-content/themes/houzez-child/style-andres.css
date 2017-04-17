@@ -59,3 +59,4 @@ form .com{margin: 0 0 8px 0;}
 #formcontact .aceptoterminos{display: inline-block;}
 #formcontact select,#formcontact input{margin: 0 0 20px 0;}
 #formcontact input[type="submit"]{width: 100%;max-width: 100%;}
+.tabs a{width: 120px;}
