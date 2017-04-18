@@ -14,14 +14,6 @@ if( isset( $_GET['sortby'] ) ) {
 }
 ?>
 
-<?php if( get_field('imagen_banner_city') ): ?>
-
-    <div class="hparalax" style="background-image: url('<?php the_field('imagen_banner_city'); ?>');">
-        <h1><?php the_title(); ?></h1>
-    </div>  
-
-<?php endif; ?>
-
 <div class="page-title breadcrumb-top">
     <div class="row">
         <div class="col-sm-12">

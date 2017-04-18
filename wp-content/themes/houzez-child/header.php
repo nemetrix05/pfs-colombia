@@ -106,6 +106,20 @@ if( houzez_is_landing_page() ) { $section_body .='landing-page';}
 
 <div id="section-body" class="<?php echo esc_attr( $section_body ); ?>">
 
+	<?php
+		$term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); 
+		$nombrecat =  $term->taxonomy; 
+
+		if($nombrecat === 'property_city'){ 
+	?>
+
+		<div class="hparalax" style="background-image: url('<?php the_field('imagen_banner', $term); ?>');">
+			<h1><?php the_field('texto_banner', $term); ?></h1>
+		</div>		
+
+			
+	<?php } ?>
+
 
 	<?php if( get_field('texto_banner') ): ?>
 
