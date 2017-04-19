@@ -60,3 +60,6 @@ form .com{margin: 0 0 8px 0;}
 #formcontact select,#formcontact input{margin: 0 0 20px 0;}
 #formcontact input[type="submit"]{width: 100%;max-width: 100%;}
 .tabs a{width: 120px;}
+.location-block a:hover{display: block;height: 100%;    background: rgba(0, 0, 0, 0.12);}
+.location-block a:hover:before{opacity: 1; background: transparent; border: 6px solid #fff; margin: 15px auto; max-width: 88%; width: 100%; max-height: 340px; height: 100%;}
+.location-block a:hover > .location-fig-caption{background: rgba(34, 48, 93, 0.82);padding: 15px;}
